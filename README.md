@@ -34,7 +34,9 @@ internet connection required. Just open it in a browser.
 
 ### 1. Toolbar (sticky, top)
 Minimal, monochrome by default. Contains: three highlight swatches, **Erase**, **Clear all**,
-**Term notes** (toggles the popup underlines), **Night mode**, and **Fit to screen**.
+**Term notes** (toggles the popup underlines), **Night mode**, **Fit to screen**, and a
+**Paper** filter - **All / Paper I / Paper II / Paper III / Paper IV** - that shows one paper's
+topics at a time (the choice is remembered between visits).
 
 ### 2. Paper blocks and topic sections (`.card > .paper-head`, `section.q`)
 A `.paper-head` divider introduces each paper. Each topic is one `<section class="q">` with a heading
