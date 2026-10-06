@@ -21,6 +21,16 @@
 <meta name="theme-color" content="#0f766e">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<style id="rg-toolbar-fix">
+.toolbar{flex-wrap:nowrap!important;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-ms-overflow-style:none;}
+.toolbar::-webkit-scrollbar{height:0;display:none;}
+.toolbar>*{flex:0 0 auto;}
+.toolbar .hint{display:none!important;}
+@media (max-width:520px){.toolbar{gap:6px;padding:8px 12px;}.toolbar .lbl{display:none;}}
+html.dark table,html.dark td,html.dark th{color:var(--ink)!important;}
+html.dark .stars .dim,html.dark .stars-sm .dim{color:var(--muted)!important;opacity:.55;}
+html.dark .term{color:#c2cad4!important;}
+</style>
 </head>
 <body>
   <div class="box">
